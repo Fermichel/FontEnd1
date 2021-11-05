@@ -1,0 +1,54 @@
+html {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: bisque;
+    
+}
+header {
+  background-image: url(/ROOT/img/fondo.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width:80%;
+  height:100%;
+}
+<!--color de fondo>#body {
+  width: 80%;
+  background-color: bisque;
+  margin: 20px;
+}
+
+.foto {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+h1 {
+  width:98%;
+  padding:1%;
+  background-color: beige;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  text-shadow: rgba(128, 128, 128, 0.658) 5px 1px 4px;
+}
+.Sobremi {
+  font-family: 'Roboto Mono', monospace;
+  text-align: right;
+  font-size: 12px;
+}
+h2,footer{
+  width:78%;
+  padding: 1%;
+  background-color: beige;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  text-align: left;
+}
+.Datos {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 23px;
+}
+footer{
+
+}
