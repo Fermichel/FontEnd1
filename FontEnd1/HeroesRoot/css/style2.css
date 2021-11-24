@@ -47,6 +47,10 @@ h1 {
 .nav-form li {
     margin-left: 20px;
 }
+.nav-form a{    
+    text-decoration: none;
+    color:#FFFFFF;}
+
 /*contenedor de la cards*/
 
 .container{
@@ -65,6 +69,11 @@ h1 {
 }
 .card-header{
     display: block;
+}
+.hear{
+    color:red;
+    position: absolute;
+    padding: 10px;
 }
 .card-body{
     display: flex;
@@ -98,6 +107,7 @@ h1 {
     color:#FFFFFF;
     margin-left: 86px;
 }
+/*FOOTER*/
 footer{
     background-color: #00669F;
     color: #FFFFFF;
@@ -107,50 +117,93 @@ footer{
     padding: 21px;
 }
 /*CONTACTO*/
-.container-form{
-    width: 680px;
+.container-contact{
+    width: 645px;
     background-color: #ffffff;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.container-form h2{
-    font-size: 72px;
-    font-weight: 700px;
+.container-contact h2{
+    font-size: 60px;
+    font-weight: 600px;
     margin-bottom: 10px;
 }
-.campo{
+.campo{ /*campo para contacto, registro y login*/
     width: 100%;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #00669F;
+    font-size: 16px;
     font-weight: 400;
-}
+} 
 .conteiner-btn{
     display: flex;
     justify-content: center;
 }
 .btn-reset{
-    width: 300px;
+    width: 200px;
     padding: 6px;
     border-radius:20px;
     background-color: #888888;
     color:#FFFFFF;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 10px;
     margin-left: 20px;
 }
 .btn-enviar{
-    width: 300px;
+    width: 200px;
     padding: 6px;
     border-radius:20px;
     background-color: #1CD1B0;
     color:#000000;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 10px;
+}
+/*REGISTRO*/
+.container-register{
+    width: 645px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container-register h2{
+    font-size: 60px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.container-register p{
+    text-align: center;
+    margin-top:10px;
+    font-size: 20px;    
+}
+.container-register a{
+    text-decoration: none;
+    color:#00669F;    
+}
+/*LOGIN*/
+.container-login{
+    width: 621px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container-login h2{
+    font-size: 60px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.container-login p{
+    text-align: center;
+    padding: 10px;
+}
+.container-login a{
+    text-decoration: none;
+    color:#00669F;
 }
