@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.descuento{
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*logo y h1*/
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #00669F;
+}
+.logo{
+    width: 90px;
+    height: 70px;
+}
+h1 {
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+/*navegador*/
+.nav-form{
+    background-color: #001D2D;
+}
+.nav-form ul {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 10px;
+    justify-content: flex-end;
+}
+.nav-form li {
+    margin-left: 20px;
+}
+/*contenedor de la cards*/
+
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*cards*/
+.card {
+    background-color: #F3F3F3;
+    width: 300px;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-header{
+    display: block;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-body-img{
+    border-radius: 100%;
+    border: 5px solid #FFFFFF;
+    margin-top: -60px;
+}
+.card h2{
+    font-size: 30px;
+    color:#000000;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 18px;
+}
+.card-button{
+    background-color: #00669F;
+    width: 129px;
+    height: 48px;
+    padding:15px 37px;
+    border:none;
+    font-size: 15px;
+    color:#FFFFFF;
+    margin-left: 86px;
+}
+footer{
+    background-color: #00669F;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 21px;
+}
+/*CONTACTO*/
+.container-form{
+    width: 680px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container-form h2{
+    font-size: 72px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.campo{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.conteiner-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-reset{
+    width: 300px;
+    padding: 6px;
+    border-radius:20px;
+    background-color: #888888;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+    margin-left: 20px;
+}
+.btn-enviar{
+    width: 300px;
+    padding: 6px;
+    border-radius:20px;
+    background-color: #1CD1B0;
+    color:#000000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+}
