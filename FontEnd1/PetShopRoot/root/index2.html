@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Roboto + Mono: wght @ 343 & display = swap "rel =" stylesheet ">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0b4f8621ad.js" crossorigin="anonymous"></script>
     <title>Petshop</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -43,18 +43,50 @@
                 <button>COMEDEROS</button>
             </div>
         </div>
-<!--productos y cars-->
-    <section class= 'productos-nav'>
-        <i class="fas fa-paw fa-5x"></i>
-        <h2>Productos Destacados</h2>
-        <ul>
-            <li>Comederos</li>
-            <li>-</li>
-            <li>Accesorios</li>
-            <li>-</li>
-            <li>Comidas</li>
-        </ul>
-    </section>
+<!--productos y card-->
+        <section class= 'productos-nav'>
+            <i class="fas fa-paw fa-7x icon"></i>
+            <h2>Productos Destacados</h2>
+            <ul>
+                <li>Comederos</li>
+                <li>-</li>
+                <li>Accesorios</li>
+                <li>-</li>
+                <li>Comidas</li>
+            </ul>
+        </section>
+<!--card-->
+        <section class='productos-card'>
+            <article class= 'card'>
+                <img src='/img/churrasquito.png'>
+                <h3>Juguete Churrasquito</h3>
+                <p>$150</p>
+            </article>
+
+            <article class= 'card'>
+                <img src='/img/comedero.png'>
+                <h3>Comedero para perro</h3>
+                <p>$250</p>
+            </article>
+
+            <article class= 'card'>
+                <img src='/img/Huesito.png'>
+                <h3>Juguete Huesito</h3>
+                <p>$650</p>
+            </article>
+        </section>
+<!--formulario-->
+        <form action="" method="post" class="cont-form">
+            <h2>Contáctanos</h2>
+            <input type='text' placeholder='Nombre y Apellido' name="nombreapellido" class='campo'>
+            <input type='email' placeholder='Ingresa tu correo electronico' name="email" class='campo'>
+            <input type='tel' placeholder="Telefono" name="tel" class='campo'>
+            <div class='btn'>
+                <input type='submit' value='Resetear'class='btn-reset'>
+                <input type='reset' value='Enviar' class="btn-enviar">
+            </div>
+
+        </form>
 
 
     </main> 
